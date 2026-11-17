@@ -1,0 +1,20 @@
+# Corre las pruebas unitarias automáticamente en cada push a GitHub
+name: Pruebas
+
+on: [push, pull_request]
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Instalar numpy
+        run: pip install numpy
+      - name: Ejecutar pruebas
+        run: python -m unittest -v

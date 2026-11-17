@@ -1,0 +1,7 @@
+# Vista 2D: solo biblioteca estándar (tkinter).
+# Vista 3D (terreno fractal, Delaunay, Voronoi, OpenGL):
+numpy>=1.24
+moderngl>=5.8
+pygame-ce>=2.5   # versión de pygame con soporte para Python 3.13 y 3.14
+# Opcional, solo para generar el ejecutable:
+pyinstaller>=6.0

@@ -1,0 +1,23 @@
+{
+  "almacenes": [
+    {"nombre": "A1 Vallejo",   "x": -70, "y":  45, "radio_cobertura": 48},
+    {"nombre": "A2 Iztapalapa", "x":  60, "y": -40, "radio_cobertura": 55},
+    {"nombre": "A3 Santa Fe",   "x": -120, "y": -30, "radio_cobertura": 35}
+  ],
+  "destinos": [
+    {"nombre": "D1 Lindavista", "x": -55, "y":  75},
+    {"nombre": "D2 Centro",     "x":   0, "y":   5},
+    {"nombre": "D3 Coyoacán",   "x":  25, "y": -65},
+    {"nombre": "D4 Tláhuac",    "x": 105, "y": -75},
+    {"nombre": "D5 Polanco",    "x": -85, "y":   5},
+    {"nombre": "D6 Aeropuerto", "x": 115, "y":  30}
+  ],
+  "rutas": [
+    {"nombre": "R1", "x0": -70, "y0":  45, "x1": -55, "y1":  75, "color": "#39d353"},
+    {"nombre": "R2", "x0": -70, "y0":  45, "x1":   0, "y1":   5, "color": "#ff7b72"},
+    {"nombre": "R3", "x0":  60, "y0": -40, "x1":  25, "y1": -65, "color": "#d2a8ff"},
+    {"nombre": "R4", "x0":  60, "y0": -40, "x1": 105, "y1": -75, "color": "#79c0ff"},
+    {"nombre": "R5", "x0": -120, "y0": -30, "x1": -85, "y1":  5, "color": "#ffa657"},
+    {"nombre": "R6", "x0":  60, "y0": -40, "x1": 115, "y1":  30, "color": "#56d4dd"}
+  ]
+}
